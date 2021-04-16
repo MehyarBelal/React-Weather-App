@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export class Weather extends Component {
   constructor(props) {
     super(props);
-    this.state = { city: "Melbourne", temp: "" };
+    this.state = { city: "Perth", temp: "" };
   }
 
   componentDidMount() {
